@@ -1,8 +1,8 @@
 @import "../../../core/sass/extendClasses";
 @import "../../../core/sass/variables";
 .card{
-  overflow: hidden;
 
+  margin-top: 30px;
   transition: all .8s ease;
 
 
@@ -22,12 +22,14 @@
     text-align: center;
 
     .card__img{
+      position: relative;
+      top: -20px;
       img{
         border-radius: 50%;
         width: 80%;
         margin: auto;
         transition: all .8s ease;
-        // transform: translateY(-20px)  rotate(0deg);
+        box-shadow:-1px 16px 15px rgba(0, 0, 0, 0.3647058824);
       }
     }
     .card__title{
